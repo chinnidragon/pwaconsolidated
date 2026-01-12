@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-US">
+<head> <!-- nothing in the head is readable except the title obvs -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Cycle Tracker</title>
+        <link rel="stylesheet" href="style.css" />
+        <!--linking the css stylesheet
+        - the rel names the linked resource as a stylesheet-->
+<!--the two meta tags and title are ESSENTIAL for any html file-->
+</head>
+<body> <!--all content is visible 2 users-->
+    <h1>Period tracker</h1>
+    <form> <!-- contains everything needed for a form (instructions, input boxes etc)-->
+        <fieldset>
+            <legend>Enter your period start and end date</legend> <!--labels the purpose of those fields-->
+                <p>
+                    <label for="start-date">Start date</label>
+                    <input type="date" id="start-date" required />
+                </p>
+                <p>
+                    <label for="end-date">End date</label>
+                    <input type="date" id="end-date" required />
+                </p>
+            </fieldset>
+        <p>
+            <button type="submit">Add Period</button>
+        </p>
+    </form>
+    <section id="past-periods">
+        <h2>Past periods</h2> <!--ALL temporary, used to see if we r satisfied with the html-->
+        <ul>
+            <li>From 30/09/1998 to 15/06/2018</li>
+            <li>From 01/29/2024 to 02/04/2024</li>
+        </ul>
+    </section> <!--empty for now, will show previous submissions of the form through javascript-->
+    <script src="app.js" defer></script> <!-- the "DEFER" means that the parsing of the script will be DEFERRED until the HTML has been rendered bythe webpage-->
+</body>
+</html>
