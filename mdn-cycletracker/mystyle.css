@@ -1,0 +1,70 @@
+body {
+    margin: 100 px;
+    background-color: rgb(237, 181, 181);
+    font-family: monospace;
+}
+
+li,
+legend {
+    background-color: rgb(248, 248, 248);
+}
+li:nth-of-type(even) {
+    background-color: inherit;
+}
+
+
+/* legend {
+    border: 15px solid;
+    border-color: rgb(248, 248, 248);
+    font-family: monospace;
+    font-style: italic;
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+    border-radius: 10px;
+} */
+
+h1{
+    /* background-color: aliceblue; */
+    color: rgb(255, 255, 255);
+    /* text-align: center; */
+    /* border: 15px solid;
+    /* border-color: aliceblue; */
+    border-radius: 10px; */
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+p {
+    background-color: rgb(215, 144, 135);
+    border: 15px solid;
+    border-color: rgb(215, 144, 135);
+    /* text-align: center; */
+}
+
+button {
+    font-family: monospace;
+    border: 5px solid;
+    border-color: rgb(248,248,248);
+    border-radius: 10px;
+    font-style: italic;
+    background-color: aliceblue;
+}
+
+ul {
+    /* padding-: 15px; */
+    background-color: rgb(215, 144, 135);
+    list-style-type: none;
+    padding-left: 0px;
+    border: 10px solid;
+    border-color: rgb(248, 248, 248);
+}
+
+li {
+    font-style: italic;
+}
+
+img {
+    /* align-self: center; */
+    max-width: 100%;
+    height: auto;
+}
